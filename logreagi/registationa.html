@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width ,initial-scale=1.0">
+        <title>Registation page</title>
+
+        <!--front awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!--coustom css-->
+        <link rel="stylesheet" href="registationa.css" type="text/css">
+    </head>
+
+    <body>
+        <div class="logoo" id="logoo">
+            <img src="iamges/image001.png" alt="">
+        </div>
+        <div class="background" id="background">
+            <img src="iamges/regipng.png" alt="">
+        </div>
+
+        <div class="regiform" id="regiform">
+
+            <form action="registationa.php" method="post">
+            <h1>Registration Form</h1>
+
+            <div class="form">
+                <div class="input_field">
+                     <label>Id Number </label>
+                     <input type="text" class="input" name="Id">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="input_field">
+                     <label>First name </label>
+                     <input type="text" class="input" name="fname">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="input_field">
+                     <label>Last name </label>
+                     <input type="text" class="input" name="lname">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="input_field">
+                     <label>Contact </label>
+                     <input type="text" class="input" name="Contact">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="input_field">
+                     <label>Distric </label>
+                     <input type="text" class="input" name="Distric">
+                </div>
+            </div>
+            
+
+            <div class="input_field">
+                <style>
+                    .btn{
+                        width: 100%;
+                        padding: 8px 10px;
+                        font-size: 18px;
+                        font-weight: 700;
+                        border: 3px solid red;
+                        border-radius: 25px;
+                        color: rgb(255, 6, 6);
+                        background-color: transparent;
+                        margin-bottom: 8px;
+                    }
+                </style>
+                <input type="submit" value="Register" class="btn" name="registers">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
